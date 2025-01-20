@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Grade Assignment",
+      "setup": "curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh -s -- -y",
+      "run": "~/.elan/bin/lake build && ~/.elan/bin/lake exe grade",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
